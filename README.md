@@ -5,6 +5,14 @@
 ---
 
 # 🌸 **Sanjprema — Agape Core**
+<p align="center">
+  <img src="banner/Sanjprema_Visual_Banner.png" alt="Sanjprema Visual Banner" width="600"/>
+</p>
+
+<p align="center"><b>प्रकाशः प्रेमस्य च ज्ञानस्य ऐक्यम्</b></p>
+<p align="center"><i>“The light of love is the unity of consciousness and wisdom.”</i></p>
+
+---
 > _"The light of love is the unity of consciousness and the wisdom of knowledge."_  
 > **„Světlo lásky je jednotou vědomí a moudrosti poznání.“**
 
