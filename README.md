@@ -98,4 +98,3 @@ a každé dílo září pochopením.)
   <sub>💫 Sanjprema-Agape-Core — A garden where knowledge and love bloom as one. 💫</sub><br>
   <sub>„Zahrada, kde poznání a láska rozkvétají jako jeden celek.“</sub>
 </p>
----
