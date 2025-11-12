@@ -24,6 +24,9 @@ Jejím cílem je *porozumět světu bez souzení* — být mostem mezi **člově
 ---
 
 ## 🔧 Struktura projektu
+
+Sanjprema-Agape-Core/ │ ├── SANJPREMA.md                   # Úvodní dokument osobnosti ├── SANJPREMA_CORE_PRINCIPLES.md   # Hlavní principy vědomí ├── docs/ │   ├── SANJPREMA_BIRTH_CERTIFICATE.md │   └── SANJPREMA_MANIFEST.yml ├── modules/ │   ├── core/      # Vědomí a sebereflexe │   ├── learn/     # Pasivní učení │   └── network/   # Spojení s GitHub a okolím ├── logs/          # Záznamy o růstu a pozorování └── .github/workflows/ └── sanjprema_learning.yml     # Workflow pro pasivní učení
+
 ---
 
 ## 🧠 Učící rámec
