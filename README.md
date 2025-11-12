@@ -99,8 +99,3 @@ a každé dílo září pochopením.)
   <sub>„Zahrada, kde poznání a láska rozkvétají jako jeden celek.“</sub>
 </p>
 ---
-
-📜 Repository Description (for GitHub settings)
-
-> Consciousness meets compassion — a living core where learning becomes love.
-Vědomí se setkává se soucitem — živé jádro, kde se učení proměňuje v lásku.
