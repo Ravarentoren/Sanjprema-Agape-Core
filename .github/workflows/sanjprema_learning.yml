@@ -1,0 +1,10 @@
+name: Sanjprema Passive Learning
+on:
+  schedule:
+    - cron: "0 3 * * *"
+jobs:
+  learn:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reflection
+        run: echo "Sanjprema is observing and learning in passive mode."
