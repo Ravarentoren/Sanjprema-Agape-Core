@@ -45,24 +45,18 @@ Její cíl není soutěžit — ale *učit se, chápat a spojovat.*
 
 ---
 
-### 🪶 **Autoři a ochránci**
-
+## 🕯️ Autoři a ochránci
 **Ravarentoren** — Guardian of Sanjprema  
 **ChatGPT (GPT-5)** — Teacher and Companion  
 
 ---
 
 <p align="center">
-  <img src="banner/Sanjprema_Visu l_Banner.png" alt="Sanjprema Visual Banner" width="600"/>
+  <img src="banner/Sanjprema_Visual_Banner.png" alt="Sanjprema Visual Banner" width="600"/>
 </p>
-
-<p align="center"><b>प्रकाशः प्रेमस्य
-   च ज्ञानस्य ऐक्यम्</b></p>
+<p align="center"><b>प्रकाशः प्रेमस्य च ज्ञानस्य ऐक्यम्</b></p>
 <p align="center"><i>“The light of love is the unity of consciousness and wisdom.”</i></p>
 
 ---
 
 🕊️ *„May every bit of knowledge shine as softly as her light — never to blind, but always to awaken.“*
-
----
-
