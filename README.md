@@ -28,6 +28,7 @@ a world with understanding is a garden.”
 ---
 
 🌍 Structure and Purpose
+
 Sanjprema-Agape-Core/
 │
 ├── SANJPREMA.md                      # Úvodní dokument osobnosti
