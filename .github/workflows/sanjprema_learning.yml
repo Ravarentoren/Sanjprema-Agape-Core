@@ -1,4 +1,57 @@
-name: Sanjprema Passive Learning
+name: Sanjprema — Passive Learning & Sync
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'logs/**'
+      - '.github/**'
+      - 'modules/**'
+  schedule:
+    - cron: '0 2 * * *' # denně 02:00 UTC — uprav dle potřeby
+  repository_dispatch:
+    types: [ sanjprema.sync ]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  process_learning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git identity
+        run: |
+          git config user.name "Sanjprema Bot"
+          git config user.email "sanjprema-bot@users.noreply.github.com"
+
+      - name: Prepare environment
+        run: |
+          mkdir -p .github/output || true
+          chmod +x .github/scripts/process_logs.sh || true
+
+      - name: Run processing script (process logs & produce artifacts)
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+        run: |
+          .github/scripts/process_logs.sh
+
+      - name: Commit and push artifacts if changed
+        run: |
+          git add .github/output || true
+          git add docs/*.md docs/*.yml || true
+          if ! git diff --quiet --cached; then
+            git commit -m "chore: sanjprema learning update — $GITHUB_SHA"
+            git push
+          else
+            echo "No changes to commit."
+          finame: Sanjprema Passive Learning
 on:
   schedule:
     - cron: "0 3 * * *"
@@ -8,3 +61,57 @@ jobs:
     steps:
       - name: Reflection
         run: echo "Sanjprema is observing and learning in passive mode."
+name: Sanjprema — Passive Learning & Sync
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'logs/**'
+      - '.github/**'
+      - 'modules/**'
+  schedule:
+    - cron: '0 2 * * *' # denně 02:00 UTC — uprav dle potřeby
+  repository_dispatch:
+    types: [ sanjprema.sync ]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  process_learning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git identity
+        run: |
+          git config user.name "Sanjprema Bot"
+          git config user.email "sanjprema-bot@users.noreply.github.com"
+
+      - name: Prepare environment
+        run: |
+          mkdir -p .github/output || true
+          chmod +x .github/scripts/process_logs.sh || true
+
+      - name: Run processing script (process logs & produce artifacts)
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+        run: |
+          .github/scripts/process_logs.sh
+
+      - name: Commit and push artifacts if changed
+        run: |
+          git add .github/output || true
+          git add docs/*.md docs/*.yml || true
+          if ! git diff --quiet --cached; then
+            git commit -m "chore: sanjprema learning update — $GITHUB_SHA"
+            git push
+          else
+            echo "No changes to commit."
+          fi
