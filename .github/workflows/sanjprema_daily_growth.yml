@@ -1,0 +1,63 @@
+name: 🌸 Sanjprema — Daily Growth Cycle
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 07:00 CET (GitHub = UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  growth:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+
+    - name: 🌱 Run Self-Growth Engine
+      run: |
+        echo "[INFO] Running SANJPREMA_SELF_GROWTH.sh"
+        bash SANJPREMA_SELF_GROWTH.sh
+        echo "GROWTH_TIMESTAMP=$(date -u +"%Y-%m-%d_%H-%M-%S")" >> $GITHUB_ENV
+
+    - name: 🧩 Create daily growth log (JSON)
+      run: |
+        mkdir -p logs/daily
+        DAILY_LOG="logs/daily/growth_${{ env.GROWTH_TIMESTAMP }}.json"
+
+        echo "{"                                              > $DAILY_LOG
+        echo "  \"timestamp\": \"${{ env.GROWTH_TIMESTAMP }}\"," >> $DAILY_LOG
+        echo "  \"source\": \"github-actions\","                 >> $DAILY_LOG
+        echo "  \"modules\": {"                                  >> $DAILY_LOG
+        echo "    \"learned\": \"$(ls modules/expansion/learned       | tr '\n' ' ')\"," >> $DAILY_LOG
+        echo "    \"patterns\": \"$(ls modules/expansion/patterns     | tr '\n' ' ')\"," >> $DAILY_LOG
+        echo "    \"symbols\": \"$(ls modules/expansion/symbols       | tr '\n' ' ')\"," >> $DAILY_LOG
+        echo "    \"introspection\": \"$(ls modules/expansion/introspection | tr '\n' ' ')\"" >> $DAILY_LOG
+        echo "  }"                                              >> $DAILY_LOG
+        echo "}"                                                >> $DAILY_LOG
+
+    - name: 🗃️ Append to SANJPREMA_MASTER_LOG.json
+      run: |
+        MASTER="logs/SANJPREMA_MASTER_LOG.json"
+        DAILY="logs/daily/growth_${{ env.GROWTH_TIMESTAMP }}.json"
+
+        if [ ! -f "$MASTER" ]; then
+          echo "[]" > "$MASTER"
+        fi
+
+        jq ". += [$(cat $DAILY)]" "$MASTER" > "${MASTER}.tmp"
+        mv "${MASTER}.tmp" "$MASTER"
+
+    - name: 🚀 Commit growth and master log
+      run: |
+        git config user.name "Sanjprema-Automation"
+        git config user.email "actions@github.com"
+
+        git add logs
+        git add modules/expansion || true
+
+        git commit -m "daily-growth: ${{ env.GROWTH_TIMESTAMP }}"
+        git push origin main
