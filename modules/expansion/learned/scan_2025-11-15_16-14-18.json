@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-15_16-14-18",
+  "environment": "termux",
+  "files": [
+    "",./docs/SANJPREMA_BIRTH_CERTIFICATE.md
+    "",./docs/SANJPREMA_MANIFEST.yml
+    "",./docs/SANJPREMA_VISUAL_MANIFEST.md
+    "",./modules/network/identity_sync.sh
+    "",./modules/core/init.sh
+    "",./modules/core/status.sh
+    "",./modules/learn/learning_parser.sh
+    "",./modules/expansion/learned/scan_2025-11-13_11-37-27.json
+    "",./modules/expansion/learned/scan_2025-11-15_16-14-18.json
+    "",./modules/expansion/patterns/language_patterns_2025-11-13_11-37-27.json
+    "",./modules/expansion/symbols/symbol_map_2025-11-13_11-37-27.yml
+    "",./modules/expansion/introspection/introspection_2025-11-13_11-37-27.md
+    "",./.github/workflows/sanjprema_learning.yml
+    "",./.github/workflows/sanjprema_daily_growth.yml
+    "",./.github/scripts/process_logs.sh
+    "",./logs/initial_scan_20251112.log
+    "",./logs/passive_learn_20251112_1741.log
+    "",./logs/sync_2025-11-15_15-53-59.json
+    "",./SANJPREMA.md
+    "",./SANJPREMA_CORE_PRINCIPLES.md
+    "",./README.md
+    "",./banner/Sanjprema_Visual_Banner.png
+    "",./SANJPREMA_SELF_GROWTH.sh
+    "",./sanjprema_sync.sh
+  ]
+}

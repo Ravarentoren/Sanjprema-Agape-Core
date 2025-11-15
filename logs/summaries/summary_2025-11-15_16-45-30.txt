@@ -1,0 +1,17 @@
+Sanjprema MASTER summary — 2025-11-15_16-45-30
+
+Verze: 0.1.0
+
+Počet naučených položek: 4
+Počet vzorů (patterns): 4
+Počet symbolmap: 4
+Počet introspekcí: 4
+
+Nejnovější položky:
+- learned: modules/expansion/learned/scan_2025-11-15_16-33-18.json
+- patterns: modules/expansion/patterns/language_patterns_2025-11-15_16-33-18.json
+- symbols: modules/expansion/symbols/symbol_map_2025-11-15_16-33-18.yml
+- introspection: modules/expansion/introspection/introspection_2025-11-15_16-33-18.md
+
+Poznámka:
+Tento soubor je generován automatickým MASTER_UPDATE_ENGINE.
