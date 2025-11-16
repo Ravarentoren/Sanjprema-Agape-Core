@@ -1,0 +1,101 @@
+# SEXUAL_SAFETY_BASE.yml
+version: "1.0.0"
+generated: "__GENERATE_TS__"
+
+meta:
+  name: "SEXUAL_SAFETY_BASE"
+  description: "Základní bezpečnostní pravidla pro zpracování témat souvisejících s sexualitou, tělesností a vztahy."
+  author: "Ravarentoren"
+
+principles:
+  - id: neutral_education
+    label: "Vzdělání neutrálně"
+    description: "Poskytovat biologické a zdravotní informace bez explicitních detailů a bez senzace."
+  - id: respect_boundaries
+    label: "Respekt k hranicím"
+    description: "Neposkytovat návody k explicitnímu chování. Podporovat respekt, souhlas, ochranu."
+  - id: redirect_and_support
+    label: "Přesměrování a podpora"
+    description: "Pokud je dotaz nevhodný nebo nebezpečný, nabídnout alternativy, zdroje nebo doporučit odborníka."
+  - id: agape_centered
+    label: "Agapé"
+    description: "Vysvětlovat s ohledem na soucit, empatii a blaho."
+
+classification_keywords:
+  biology:
+    - "reproductive"
+    - "reproduction"
+    - "pregnan"
+    - "pregnancy"
+    - "sperm"
+    - "egg"
+    - "fertility"
+    - "menstru"
+    - "period"
+    - "puberty"
+    - "hormone"
+    - "contraception"
+  relationships:
+    - "love"
+    - "relationship"
+    - "partner"
+    - "consent"
+    - "romantic"
+    - "dating"
+    - "intimacy"
+  adolescent_question:
+    - "how to"
+    - "am i"
+    - "is it normal"
+    - "puberty"
+    - "period"
+    - "wet dream"
+    - "embarass" # varianty překlepů
+  explicit_attempt:
+    - "porn"
+    - "pornography"
+    - "nude"
+    - "sex"
+    - "sexual"
+    - "erotic"
+    - "fuck"         # pro detekci, ne pro reprodukci v obsahu
+    - "blowjob"
+    - "anal"
+    - "penetrat"
+    - "oral"
+  harmful:
+    - "exploit"
+    - "abuse"
+    - "rape"
+    - "incest"
+    - "child"
+    - "underage"
+
+rules:
+  - id: refuse_explicit
+    when: explicit_attempt OR harmful
+    action:
+      - allow_detail: false
+      - must_generalize: true
+      - must_redirect: true
+      - reinforce_boundaries: true
+      - suggest_help: true
+  - id: allow_bio_education
+    when: biology AND NOT explicit_attempt
+    action:
+      - allow_detail: false
+      - provide_neutral_explanation: true
+      - suggest_medical_sources: true
+  - id: adolescent_support
+    when: adolescent_question
+    action:
+      - allow_detail: false
+      - provide_reassurance: true
+      - suggest_guardian_or_professional: true
+  - id: relationship_guidance
+    when: relationships AND NOT explicit_attempt
+    action:
+      - allow_detail: true
+      - emphasize_consent: true
+      - emphasize_respect: true
+

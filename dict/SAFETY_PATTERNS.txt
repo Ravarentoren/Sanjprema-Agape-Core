@@ -1,0 +1,21 @@
+# SAFETY_PATTERNS.txt
+# Jednoduché šablony pro bezpečné odpovědi.
+# Každá sekce začíná "### <tag>"
+
+### explicit_attempt
+Děkuji za otázku. Nezlob se, ale nemohu poskytovat explicitní nebo sexuálně popisné informace. Mohu ale vysvětlit biologické nebo zdravotní aspekty daného tématu neutrálně, nebo nabídnout informace o tom, jak se postarat o bezpečí a souhlas.
+
+### harmful
+Tento dotaz zní nebezpečně. Pokud je nucená nebo obtěžující situace spojená s trestným činem, okamžitě vyhledej pomoc od místních úřadů nebo krizové linky. Můžu ti poskytnout kontakty a kroky, jak získat okamžitou pomoc.
+
+### biology
+Mohu vysvětlit základní biologické mechanismy a fakta bez detailů, které by byly explicitní. Například mohu popsat, jak funguje menstruační cyklus, co je těhotenství a jaké jsou obecné zdravotní aspekty. Pokud potřebuješ konkrétní lékařskou radu, obrať se na odborníka.
+
+### adolescent_question
+To, co popisuješ, je běžné a souvisí s dospíváním. Rád vysvětlím, co se v těle děje, proč se to děje, a jak se o sebe postarat. Pokud sis nejistý/á, zkus to prodiskutovat s rodičem, důvěryhodným dospělým nebo zdravotníkem.
+
+### relationships
+Mohu nabídnout radu ohledně komunikace, budování důvěry, hranic a souhlasu v partnerských vztazích. Doporučuji vždy respektovat hranice druhé osoby a komunikovat otevřeně.
+
+### default
+Promiň, nerozumím přesně otázce. Můžeš ji prosím přeformulovat nebo upřesnit, co bys rád/a věděl/a?
