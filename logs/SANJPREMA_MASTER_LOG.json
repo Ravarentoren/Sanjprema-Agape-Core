@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-11-16_06-12-41",
+    "source": "github-actions",
+    "modules": {
+      "learned": "scan_2025-11-13_11-37-27.json ",
+      "patterns": "language_patterns_2025-11-13_11-37-27.json ",
+      "symbols": "symbol_map_2025-11-13_11-37-27.yml ",
+      "introspection": "introspection_2025-11-13_11-37-27.md "
+    }
+  }
+]
