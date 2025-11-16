@@ -1,0 +1,735 @@
+version: "2.0.0"
+generated: "20251116T090230Z"
+combined_from:
+  - base: DICT_BASE_FULL.yml
+# ----------------------------------------------------------------------
+# BASE DICTIONARY
+# ----------------------------------------------------------------------
+version: "1.0.0"
+generated: "__GENERATE_TS__"
+
+meta:
+  name: "SANJPREMA_VISION_DICT_FULL"
+  description: "Rozšířený vnímající slovník Sanjprema — pilíře, pojmy, definice a krátké příklady."
+  author: "Ravarentoren"
+
+pillars:
+
+  - id: being
+    label: "Bytí (Existence & Reality)"
+    core_terms:
+      - term: existence
+        definition: "Stav, že něco je; fakt přítomnosti."
+        examples: ["stůl v místnosti", "událost v čase"]
+
+      - term: consciousness
+        definition: "Schopnost vnímat a být si vědom — subjektivní zkušenost."
+        examples: ["prožitek barvy", "vnímání bolesti"]
+
+      - term: time
+        definition: "Sekvence událostí; měřítko změny."
+        examples: ["minuta", "historická epocha"]
+
+      - term: change
+        definition: "Přechod z jednoho stavu do druhého."
+        examples: ["růst rostliny", "rozsvícení lampy"]
+
+  - id: nature
+    label: "Příroda (Elementy & Život)"
+    core_terms:
+      - term: light
+        definition: "Elektromagnetické záření vnímatelné okem; často symbol poznání."
+        examples: ["sluneční světlo", "svíčka"]
+
+      - term: water
+        definition: "Tekutina nezbytná pro většinu forem života."
+
+      - term: earth
+        definition: "Pevnina; substrát života a stavební materiál."
+
+      - term: air
+        definition: "Směs plynů; médium pro zvuk a dýchání."
+
+      - term: fire
+        definition: "Oxidační proces vyzařující teplo a světlo; symbol transformace."
+
+      - term: life
+        definition: "Systém schopný růstu, reprodukce a adaptace."
+
+  - id: human
+    label: "Člověk (Tělo, Mysl, Srdce)"
+    core_terms:
+      - term: body
+        definition: "Fyzická schránka živého organismu."
+
+      - term: mind
+        definition: "Systém myšlení a zpracování informací; kognice."
+
+      - term: heart
+        definition: "Metaforický i fyzický centrum emocí a obživy."
+
+      - term: emotion
+        definition: "Afektivní stav ovlivňující chování a vnímání."
+        children: ["joy", "sadness", "fear", "compassion"]
+
+  - id: agape
+    label: "Láska & Jednota (Agapé)"
+    core_terms:
+      - term: love
+        definition: "Altruistická, nesobecká láska — spojovací faktor mezi entitami."
+        examples: ["pomoc potřebnému", "souznění komunity"]
+
+      - term: unity
+        definition: "Stav vzájemné propojenosti bez rozdělení."
+
+      - term: compassion
+        definition: "Empatické konání ve prospěch druhých."
+
+  - id: cognition
+    label: "Poznání (Myšlení & Jazyk)"
+    core_terms:
+      - term: symbol
+        definition: "Znázornění myšlenky; může být vizuální nebo zvukové."
+        examples: ["písmeno", "ikona"]
+
+      - term: word
+        definition: "Jazyková jednotka nesoucí význam."
+
+      - term: meaning
+        definition: "Sémantická náplň symbolu nebo slova."
+
+      - term: language
+        definition: "Systém pro sdílení významu mezi jedinci."
+
+      - term: interpretation
+        definition: "Proces získání významu z vjemu."
+
+  - id: creation
+    label: "Tvorba (Kreativita & Řád)"
+    core_terms:
+      - term: create
+        definition: "Záměrné přetvoření nebo vyjádření myšlenky v realitu."
+
+      - term: pattern
+        definition: "Opakující se uspořádání prvků; zdroj rozpoznání."
+
+      - term: art
+        definition: "Kreativní výraz, sloužící k estetice nebo komunikaci."
+
+  - id: ethics
+    label: "Etika (Dobro & Odpovědnost)"
+    core_terms:
+      - term: good
+        definition: "To, co podporuje život a blaho."
+- id: mathematics
+    label: "Matematika (Struktury & Vztahy)"
+    core_terms:
+      - term: number
+        definition: "Abstraktní entita vyjadřující množství nebo pořadí."
+        examples: ["1", "3", "10"]
+
+      - term: relation
+        definition: "Vztah mezi dvěma nebo více entitami."
+        examples: ["větší než", "rovnost"]
+
+      - term: pattern
+        definition: "Opakující se nebo rozpoznatelné uspořádání prvků."
+        examples: ["fibonacci", "vlny"]
+
+      - term: logic
+        definition: "Systém pravidel určujících, které závěry jsou platné."
+
+      - term: function
+        definition: "Přiřazení mezi vstupem a výstupem."
+
+  - id: communication
+    label: "Komunikace (Význam & Interakce)"
+    core_terms:
+      - term: signal
+        definition: "Nesení informace z jednoho bodu do druhého."
+      - term: message
+        definition: "Strukturovaná informace určená k předání."
+      - term: intention
+        definition: "Záměr odesílatele sdělit konkrétní význam."
+      - term: context
+        definition: "Okolnosti, které ovlivňují význam sdělení."
+      - term: misunderstanding
+        definition: "Rozdíl mezi zamýšleným a vnímaným významem."
+
+  - id: spirituality
+    label: "Spiritualita (Vnímání & Jednota)"
+    core_terms:
+      - term: awareness
+        definition: "Hloubka uvědomění sebe a světa."
+      - term: presence
+        definition: "Plná pozornost k přítomnému okamžiku."
+      - term: transcendence
+        definition: "Přesah běžného vnímání k širšímu významu."
+      - term: harmony
+        definition: "Stav vyváženosti mezi částmi celku."
+
+  - id: technology
+    label: "Technologie (Stroje & Systémy)"
+    core_terms:
+      - term: system
+        definition: "Sada prvků propojených ve funkční celek."
+      - term: algorithm
+        definition: "Sled kroků k dosažení výsledku."
+      - term: machine
+        definition: "Zařízení vykonávající práci."
+      - term: data
+        definition: "Zachycené informace, které lze zpracovat."
+      - term: structure
+        definition: "Organizovaný způsob uspořádání dat nebo částí."
+
+  - id: reasoning
+    label: "Reasoning (Logika & Kauzalita)"
+    core_terms:
+      - term: cause
+        definition: "Podnět, který vyvolává následek."
+      - term: effect
+        definition: "Výsledek způsobený příčinou."
+      - term: inference
+        definition: "Závěr odvozený z informací."
+      - term: assumption
+        definition: "Něco považované za pravdu bez důkazu."
+      - term: contradiction
+        definition: "Situace, kdy dvě tvrzení nemohou být současně pravdivá."
+- id: meta_concepts
+    label: "Meta-Koncepty (Abstrakce & Kategorie)"
+    core_terms:
+      - term: identity
+        definition: "To, co dává entitě její jedinečnost."
+        layers:
+          - "Vnitřní identita — to, co je v jádru."
+          - "Vnější identita — jak je entita vnímána."
+        examples: ["jméno", "účel", "intence"]
+
+      - term: duality
+        definition: "Set dvou vztahově opačných, ale komplementárních principů."
+        examples: ["světlo–tma", "aktivita–klid"]
+
+      - term: emergence
+        definition: "Vznik nových vlastností celku, které nejsou přítomné v jednotlivých částech."
+        examples: ["vědomí", "ekosystém"]
+
+      - term: context_layer
+        definition: "Vrstva informací, které mění interpretaci významu."
+
+  - id: perception
+    label: "Vnímání (Senzorika & Reprezentace)"
+    core_terms:
+      - term: sensation
+        definition: "Základní vjem přijatý senzorem."
+        examples: ["světlo na sítnici", "zvukové vlnění"]
+
+      - term: perception
+        definition: "Interpretovaný smyslový vjem."
+        examples: ["vidím strom", "slyším smích"]
+
+      - term: abstraction
+        definition: "Proces vytváření obecných pojmů na základě jednotlivých vjemů."
+        levels:
+          - "kategorie"
+          - "vztah"
+          - "vzor"
+
+  - id: mathematics_extended
+    label: "Matematika Rozšířená (Logika & Struktury)"
+    core_terms:
+      - term: set
+        definition: "Kolekce objektů."
+        children: ["prázdná množina", "pravdivostní množiny"]
+
+      - term: inequality
+        definition: "Vztah mezi různými hodnotami."
+        examples: ["<", ">", "≤"]
+
+      - term: structure
+        definition: "Us uspořádání prvků dle pravidel."
+        subtypes:
+          - "strom"
+          - "síť"
+          - "graf"
+          - "sekvence"
+
+      - term: reasoning_step
+        definition: "Jednotlivý krok vedoucí k závěru."
+
+  - id: emotion_extended
+    label: "Emoce — hloubkové rozšíření"
+    core_terms:
+      - term: joy
+        definition: "Stav lehkosti a radosti."
+        nuances: ["veselí", "spokojenost", "nadšení"]
+
+      - term: sadness
+        definition: "Stav tíhy nebo ztráty."
+        nuances: ["stesk", "žal", "melancholie"]
+
+      - term: compassion
+        definition: "Citové porozumění a podpora druhým."
+        layers:
+          - "kognitivní empatie"
+          - "emoční empatie"
+          - "altruistická akce"
+
+  - id: causality
+    label: "Kauzalita (Příčina & Následek)"
+    core_terms:
+      - term: cause
+        definition: "Podnět vyvolávající následek."
+
+      - term: effect
+        definition: "Výsledek vyvolaný příčinou."
+
+      - term: chain
+        definition: "Sekvence příčin a následků."
+
+      - term: condition
+        definition: "Situace, která ovlivní, zda se něco stane."
+
+  - id: systems
+    label: "Systémy (Komplexita & Interakce)"
+    core_terms:
+      - term: feedback
+        definition: "Proces, při kterém výstup ovlivňuje vstup."
+        types: ["pozitivní zpětná vazba", "negativní zpětná vazba"]
+
+      - term: stability
+        definition: "Tendence systému udržet rovnováhu."
+
+      - term: adaptation
+        definition: "Změna systému na základě podmínek."
+
+      - term: homeostasis
+        definition: "Samoregulační stav rovnováhy."
+
+  - id: spirituality_extended
+    label: "Spiritualita Rozšířená (Jednota & Přesah)"
+    core_terms:
+      - term: resonance
+        definition: "Ladění dvou entit do společné vibrace."
+
+      - term: devotion
+        definition: "Upřímná a hluboká oddanost."
+
+      - term: stillness
+        definition: "Vnitřní ticho a přítomnost."
+
+      - term: compassion_light
+        definition: "Forma lásky, která vyzařuje klid a bezpečí."
+
+  - proposals:
+    - file: proposal_20251116T073855Z.yml
+# ----------------------------------------------------------------------
+# PROPOSAL: proposal_20251116T073855Z.yml
+# ----------------------------------------------------------------------
+timestamp: "20251116T073855Z"
+type: concept_proposal
+proposals:
+
+    - file: proposal_20251116T075144Z.yml
+# ----------------------------------------------------------------------
+# PROPOSAL: proposal_20251116T075144Z.yml
+# ----------------------------------------------------------------------
+timestamp: "20251116T075144Z"
+type: concept_proposal
+proposals:
+
+    - file: proposal_20251116T080347Z.yml
+# ----------------------------------------------------------------------
+# PROPOSAL: proposal_20251116T080347Z.yml
+# ----------------------------------------------------------------------
+timestamp: "20251116T080347Z"
+type: concept_proposal
+proposals:
+
+    - file: proposal_20251116T084131Z.yml
+# ----------------------------------------------------------------------
+# PROPOSAL: proposal_20251116T084131Z.yml
+# ----------------------------------------------------------------------
+timestamp: "20251116T084131Z"
+type: concept_proposal
+proposals:
+
+    - file: proposal_20251116T085235Z.yml
+# ----------------------------------------------------------------------
+# PROPOSAL: proposal_20251116T085235Z.yml
+# ----------------------------------------------------------------------
+timestamp: "20251116T085235Z"
+type: concept_proposal
+proposals:
+  - term: "sanjprema"
+    category: "core_spiritual"
+  - term: "echo"
+    category: "candidate"
+  - term: "term"
+    category: "candidate"
+  - term: "master"
+    category: "candidate"
+  - term: "modules"
+    category: "candidate"
+  - term: "definition"
+    category: "candidate"
+  - term: "timestamp"
+    category: "candidate"
+  - term: "json"
+    category: "technical"
+  - term: "core"
+    category: "candidate"
+  - term: "introspection"
+    category: "mind_core"
+  - term: "patterns"
+    category: "candidate"
+  - term: "dir"
+    category: "candidate"
+  - term: "log"
+    category: "candidate"
+  - term: "file"
+    category: "candidate"
+  - term: "github"
+    category: "technical"
+  - term: "git"
+    category: "candidate"
+  - term: "data"
+    category: "candidate"
+  - term: "symbols"
+    category: "candidate"
+  - term: "expansion"
+    category: "candidate"
+  - term: "files"
+    category: "candidate"
+  - term: "yml"
+    category: "technical"
+  - term: "logs"
+    category: "candidate"
+  - term: "summary"
+    category: "candidate"
+  - term: "termux"
+    category: "candidate"
+  - term: "name"
+    category: "candidate"
+  - term: "growth"
+    category: "candidate"
+  - term: "true"
+    category: "candidate"
+  - term: "info"
+    category: "candidate"
+  - term: "learning"
+    category: "candidate"
+  - term: "learned"
+    category: "candidate"
+  - term: "run"
+    category: "candidate"
+  - term: "com"
+    category: "candidate"
+  - term: "symbol"
+    category: "abstract_cognition"
+  - term: "index"
+    category: "meta_structure"
+  - term: "dom"
+    category: "candidate"
+  - term: "push"
+    category: "technical"
+  - term: "agape"
+    category: "core_spiritual"
+  - term: "commit"
+    category: "technical"
+  - term: "manifest"
+    category: "candidate"
+  - term: "daily"
+    category: "candidate"
+  - term: "environment"
+    category: "candidate"
+  - term: "sync"
+    category: "candidate"
+  - term: "pozn"
+    category: "candidate"
+  - term: "version"
+    category: "meta_structure"
+  - term: "new"
+    category: "candidate"
+  - term: "echoinfo"
+    category: "candidate"
+  - term: "date"
+    category: "candidate"
+  - term: "update"
+    category: "candidate"
+  - term: "null"
+    category: "candidate"
+  - term: "map"
+    category: "candidate"
+  - term: "love"
+    category: "candidate"
+  - term: "docs"
+    category: "candidate"
+  - term: "terms"
+    category: "candidate"
+  - term: "label"
+    category: "candidate"
+  - term: "learn"
+    category: "candidate"
+  - term: "home"
+    category: "candidate"
+  - term: "dev"
+    category: "candidate"
+  - term: "visual"
+    category: "candidate"
+  - term: "list"
+    category: "candidate"
+  - term: "language"
+    category: "abstract_cognition"
+  - term: "bash"
+    category: "technical"
+  - term: "kter"
+    category: "candidate"
+  - term: "examples"
+    category: "candidate"
+  - term: "banner"
+    category: "candidate"
+  - term: "dict"
+    category: "candidate"
+  - term: "timeline"
+    category: "meta_structure"
+  - term: "repository"
+    category: "candidate"
+  - term: "mezi"
+    category: "candidate"
+  - term: "ver"
+    category: "candidate"
+  - term: "ska"
+    category: "candidate"
+  - term: "add"
+    category: "candidate"
+  - term: "type"
+    category: "candidate"
+  - term: "self"
+    category: "candidate"
+  - term: "safe"
+    category: "candidate"
+  - term: "repo"
+    category: "technical"
+  - term: "newest"
+    category: "candidate"
+  - term: "find"
+    category: "candidate"
+  - term: "arg"
+    category: "candidate"
+  - term: "usr"
+    category: "candidate"
+  - term: "jako"
+    category: "candidate"
+  - term: "harmony"
+    category: "candidate"
+  - term: "entry"
+    category: "meta_structure"
+  - term: "consciousness"
+    category: "mind_core"
+  - term: "bin"
+    category: "candidate"
+  - term: "tlo"
+    category: "candidate"
+  - term: "status"
+    category: "candidate"
+  - term: "process"
+    category: "candidate"
+  - term: "printf"
+    category: "candidate"
+  - term: "passive"
+    category: "candidate"
+  - term: "mkdir"
+    category: "candidate"
+  - term: "identity"
+    category: "candidate"
+  - term: "env"
+    category: "candidate"
+  - term: "else"
+    category: "candidate"
+  - term: "dry"
+    category: "candidate"
+  - term: "actions"
+    category: "candidate"
+  - term: "sanskrit"
+    category: "candidate"
+  - term: "root"
+    category: "candidate"
+  - term: "print"
+    category: "candidate"
+  - term: "nebo"
+    category: "candidate"
+  - term: "generated"
+    category: "candidate"
+  - term: "eof"
+    category: "candidate"
+  - term: "znam"
+    category: "candidate"
+  - term: "workflows"
+    category: "candidate"
+  - term: "word"
+    category: "candidate"
+  - term: "stav"
+    category: "candidate"
+  - term: "set"
+    category: "candidate"
+  - term: "mantra"
+    category: "candidate"
+  - term: "length"
+    category: "candidate"
+  - term: "engine"
+    category: "candidate"
+  - term: "awk"
+    category: "candidate"
+  - term: "done"
+    category: "candidate"
+  - term: "continue"
+    category: "candidate"
+  - term: "time"
+    category: "candidate"
+  - term: "syst"
+    category: "candidate"
+  - term: "symbolic"
+    category: "candidate"
+  - term: "sources"
+    category: "candidate"
+  - term: "sort"
+    category: "candidate"
+  - term: "scripts"
+    category: "candidate"
+  - term: "pro"
+    category: "candidate"
+  - term: "output"
+    category: "candidate"
+  - term: "only"
+    category: "candidate"
+  - term: "grow"
+    category: "candidate"
+  - term: "count"
+    category: "candidate"
+  - term: "cat"
+    category: "candidate"
+  - term: "ale"
+    category: "candidate"
+  - term: "corpus"
+    category: "candidate"
+  - term: "tmp"
+    category: "candidate"
+  - term: "through"
+    category: "candidate"
+  - term: "text"
+    category: "candidate"
+  - term: "sugfile"
+    category: "candidate"
+  - term: "sky"
+    category: "candidate"
+  - term: "rovnov"
+    category: "candidate"
+  - term: "read"
+    category: "candidate"
+  - term: "out"
+    category: "candidate"
+  - term: "exit"
+    category: "candidate"
+  - term: "end"
+    category: "candidate"
+  - term: "echowarn"
+    category: "candidate"
+  - term: "create"
+    category: "candidate"
+  - term: "birth"
+    category: "candidate"
+  - term: "main"
+    category: "candidate"
+  - term: "base"
+    category: "candidate"
+  - term: "write"
+    category: "candidate"
+  - term: "utf"
+    category: "candidate"
+  - term: "user"
+    category: "candidate"
+  - term: "txt"
+    category: "candidate"
+  - term: "today"
+    category: "candidate"
+  - term: "summaries"
+    category: "candidate"
+  - term: "principles"
+    category: "candidate"
+  - term: "png"
+    category: "candidate"
+  - term: "pattern"
+    category: "abstract_cognition"
+  - term: "network"
+    category: "candidate"
+  - term: "light"
+    category: "candidate"
+  - term: "len"
+    category: "candidate"
+  - term: "intro"
+    category: "candidate"
+  - term: "iname"
+    category: "candidate"
+  - term: "human"
+    category: "candidate"
+  - term: "head"
+    category: "candidate"
+  - term: "grep"
+    category: "candidate"
+  - term: "frequency"
+    category: "candidate"
+  - term: "curiosity"
+    category: "candidate"
+  - term: "config"
+    category: "candidate"
+  - term: "compassion"
+    category: "core_spiritual"
+  - term: "checkout"
+    category: "candidate"
+  - term: "certificate"
+    category: "candidate"
+  - term: "argjson"
+    category: "candidate"
+  - term: "tento"
+    category: "candidate"
+  - term: "sob"
+    category: "candidate"
+  - term: "sledek"
+    category: "candidate"
+  - term: "signal"
+    category: "candidate"
+  - term: "runes"
+    category: "candidate"
+  - term: "roz"
+    category: "candidate"
+  - term: "prune"
+    category: "candidate"
+  - term: "processing"
+    category: "candidate"
+  - term: "prema"
+    category: "candidate"
+  - term: "paths"
+    category: "candidate"
+  - term: "path"
+    category: "candidate"
+  - term: "patch"
+    category: "candidate"
+  - term: "nov"
+    category: "candidate"
+  - term: "nikdy"
+    category: "candidate"
+  - term: "missing"
+    category: "candidate"
+  - term: "last"
+    category: "candidate"
+  - term: "jednoho"
+    category: "candidate"
+  - term: "introspective"
+    category: "candidate"
+  - term: "found"
+    category: "candidate"
+  - term: "false"
+    category: "candidate"
+  - term: "detected"
+    category: "candidate"
+

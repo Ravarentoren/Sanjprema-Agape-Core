@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "",
+    "environment": "termux",
+    "scan_file": "modules/expansion/learned/scan_.json",
+    "patterns_file": "modules/expansion/patterns/language_patterns_.json",
+    "symbols_file": "modules/expansion/symbols/symbol_map_.yml",
+    "introspection_file": "modules/expansion/introspection/introspection_.md"
+  },
+  {
+    "timestamp": "",
+    "environment": "termux",
+    "scan_file": "modules/expansion/learned/scan_.json",
+    "patterns_file": "modules/expansion/patterns/language_patterns_.json",
+    "symbols_file": "modules/expansion/symbols/symbol_map_.yml",
+    "introspection_file": "modules/expansion/introspection/introspection_.md"
+  }
+]

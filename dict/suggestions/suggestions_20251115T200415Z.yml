@@ -1,0 +1,375 @@
+timestamp: "20251115T200415Z"
+source: local_corpus
+candidates:
+  - term: "sanjprema"
+    score: 267
+  - term: "echo"
+    score: 242
+  - term: "term"
+    score: 155
+  - term: "master"
+    score: 155
+  - term: "modules"
+    score: 153
+  - term: "definition"
+    score: 153
+  - term: "timestamp"
+    score: 141
+  - term: "json"
+    score: 140
+  - term: "core"
+    score: 133
+  - term: "introspection"
+    score: 127
+  - term: "patterns"
+    score: 115
+  - term: "dir"
+    score: 114
+  - term: "log"
+    score: 109
+  - term: "file"
+    score: 107
+  - term: "github"
+    score: 103
+  - term: "git"
+    score: 102
+  - term: "data"
+    score: 101
+  - term: "symbols"
+    score: 99
+  - term: "expansion"
+    score: 99
+  - term: "files"
+    score: 97
+  - term: "yml"
+    score: 96
+  - term: "logs"
+    score: 93
+  - term: "summary"
+    score: 85
+  - term: "termux"
+    score: 75
+  - term: "name"
+    score: 73
+  - term: "growth"
+    score: 71
+  - term: "true"
+    score: 68
+  - term: "info"
+    score: 68
+  - term: "learning"
+    score: 67
+  - term: "learned"
+    score: 65
+  - term: "run"
+    score: 61
+  - term: "com"
+    score: 61
+  - term: "symbol"
+    score: 57
+  - term: "index"
+    score: 55
+  - term: "dom"
+    score: 55
+  - term: "push"
+    score: 53
+  - term: "agape"
+    score: 53
+  - term: "commit"
+    score: 52
+  - term: "manifest"
+    score: 51
+  - term: "daily"
+    score: 51
+  - term: "environment"
+    score: 49
+  - term: "sync"
+    score: 47
+  - term: "pozn"
+    score: 47
+  - term: "version"
+    score: 45
+  - term: "new"
+    score: 45
+  - term: "echoinfo"
+    score: 45
+  - term: "date"
+    score: 45
+  - term: "update"
+    score: 43
+  - term: "null"
+    score: 41
+  - term: "map"
+    score: 41
+  - term: "love"
+    score: 41
+  - term: "docs"
+    score: 41
+  - term: "terms"
+    score: 39
+  - term: "label"
+    score: 39
+  - term: "learn"
+    score: 37
+  - term: "home"
+    score: 37
+  - term: "dev"
+    score: 37
+  - term: "visual"
+    score: 35
+  - term: "list"
+    score: 35
+  - term: "language"
+    score: 35
+  - term: "bash"
+    score: 35
+  - term: "kter"
+    score: 33
+  - term: "examples"
+    score: 33
+  - term: "banner"
+    score: 33
+  - term: "dict"
+    score: 32
+  - term: "timeline"
+    score: 31
+  - term: "repository"
+    score: 31
+  - term: "mezi"
+    score: 31
+  - term: "ver"
+    score: 29
+  - term: "ska"
+    score: 29
+  - term: "add"
+    score: 28
+  - term: "type"
+    score: 27
+  - term: "self"
+    score: 27
+  - term: "safe"
+    score: 27
+  - term: "repo"
+    score: 27
+  - term: "newest"
+    score: 27
+  - term: "find"
+    score: 27
+  - term: "arg"
+    score: 27
+  - term: "usr"
+    score: 25
+  - term: "jako"
+    score: 25
+  - term: "harmony"
+    score: 25
+  - term: "entry"
+    score: 25
+  - term: "consciousness"
+    score: 25
+  - term: "bin"
+    score: 25
+  - term: "tlo"
+    score: 23
+  - term: "status"
+    score: 23
+  - term: "process"
+    score: 23
+  - term: "printf"
+    score: 23
+  - term: "passive"
+    score: 23
+  - term: "mkdir"
+    score: 23
+  - term: "identity"
+    score: 23
+  - term: "env"
+    score: 23
+  - term: "else"
+    score: 23
+  - term: "dry"
+    score: 23
+  - term: "actions"
+    score: 23
+  - term: "sanskrit"
+    score: 21
+  - term: "root"
+    score: 21
+  - term: "print"
+    score: 21
+  - term: "nebo"
+    score: 21
+  - term: "generated"
+    score: 21
+  - term: "eof"
+    score: 21
+  - term: "znam"
+    score: 19
+  - term: "workflows"
+    score: 19
+  - term: "word"
+    score: 19
+  - term: "stav"
+    score: 19
+  - term: "set"
+    score: 19
+  - term: "mantra"
+    score: 19
+  - term: "length"
+    score: 19
+  - term: "engine"
+    score: 19
+  - term: "awk"
+    score: 19
+  - term: "done"
+    score: 18
+  - term: "continue"
+    score: 18
+  - term: "time"
+    score: 17
+  - term: "syst"
+    score: 17
+  - term: "symbolic"
+    score: 17
+  - term: "sources"
+    score: 17
+  - term: "sort"
+    score: 17
+  - term: "scripts"
+    score: 17
+  - term: "pro"
+    score: 17
+  - term: "output"
+    score: 17
+  - term: "only"
+    score: 17
+  - term: "grow"
+    score: 17
+  - term: "count"
+    score: 17
+  - term: "cat"
+    score: 17
+  - term: "ale"
+    score: 17
+  - term: "corpus"
+    score: 16
+  - term: "tmp"
+    score: 15
+  - term: "through"
+    score: 15
+  - term: "text"
+    score: 15
+  - term: "sugfile"
+    score: 15
+  - term: "sky"
+    score: 15
+  - term: "rovnov"
+    score: 15
+  - term: "read"
+    score: 15
+  - term: "out"
+    score: 15
+  - term: "exit"
+    score: 15
+  - term: "end"
+    score: 15
+  - term: "echowarn"
+    score: 15
+  - term: "create"
+    score: 15
+  - term: "birth"
+    score: 15
+  - term: "main"
+    score: 14
+  - term: "base"
+    score: 14
+  - term: "write"
+    score: 13
+  - term: "utf"
+    score: 13
+  - term: "user"
+    score: 13
+  - term: "txt"
+    score: 13
+  - term: "today"
+    score: 13
+  - term: "summaries"
+    score: 13
+  - term: "principles"
+    score: 13
+  - term: "png"
+    score: 13
+  - term: "pattern"
+    score: 13
+  - term: "network"
+    score: 13
+  - term: "light"
+    score: 13
+  - term: "len"
+    score: 13
+  - term: "intro"
+    score: 13
+  - term: "iname"
+    score: 13
+  - term: "human"
+    score: 13
+  - term: "head"
+    score: 13
+  - term: "grep"
+    score: 13
+  - term: "frequency"
+    score: 13
+  - term: "curiosity"
+    score: 13
+  - term: "config"
+    score: 13
+  - term: "compassion"
+    score: 13
+  - term: "checkout"
+    score: 13
+  - term: "certificate"
+    score: 13
+  - term: "argjson"
+    score: 13
+  - term: "tento"
+    score: 11
+  - term: "sob"
+    score: 11
+  - term: "sledek"
+    score: 11
+  - term: "signal"
+    score: 11
+  - term: "runes"
+    score: 11
+  - term: "roz"
+    score: 11
+  - term: "prune"
+    score: 11
+  - term: "processing"
+    score: 11
+  - term: "prema"
+    score: 11
+  - term: "paths"
+    score: 11
+  - term: "path"
+    score: 11
+  - term: "patch"
+    score: 11
+  - term: "nov"
+    score: 11
+  - term: "nikdy"
+    score: 11
+  - term: "missing"
+    score: 11
+  - term: "last"
+    score: 11
+  - term: "jednoho"
+    score: 11
+  - term: "introspective"
+    score: 11
+  - term: "found"
+    score: 11
+  - term: "false"
+    score: 11
+  - term: "detected"
+    score: 11

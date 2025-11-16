@@ -1,0 +1,403 @@
+timestamp: "20251116T093119Z"
+source: local_corpus
+candidates:
+  - term: "term"
+    score: 720
+  - term: "category"
+    score: 365
+  - term: "candidate"
+    score: 326
+  - term: "sanjprema"
+    score: 292
+  - term: "echo"
+    score: 194
+  - term: "score"
+    score: 191
+  - term: "core"
+    score: 178
+  - term: "definition"
+    score: 157
+  - term: "modules"
+    score: 151
+  - term: "timestamp"
+    score: 132
+  - term: "data"
+    score: 132
+  - term: "yml"
+    score: 115
+  - term: "files"
+    score: 110
+  - term: "introspection"
+    score: 100
+  - term: "and"
+    score: 97
+  - term: "termux"
+    score: 95
+  - term: "json"
+    score: 94
+  - term: "log"
+    score: 93
+  - term: "github"
+    score: 92
+  - term: "expansion"
+    score: 92
+  - term: "master"
+    score: 85
+  - term: "dir"
+    score: 81
+  - term: "symbols"
+    score: 80
+  - term: "logs"
+    score: 80
+  - term: "com"
+    score: 80
+  - term: "learning"
+    score: 76
+  - term: "file"
+    score: 74
+  - term: "patterns"
+    score: 72
+  - term: "agape"
+    score: 72
+  - term: "dom"
+    score: 71
+  - term: "info"
+    score: 69
+  - term: "name"
+    score: 62
+  - term: "growth"
+    score: 62
+  - term: "git"
+    score: 62
+  - term: "true"
+    score: 57
+  - term: "home"
+    score: 55
+  - term: "manifest"
+    score: 54
+  - term: "symbol"
+    score: 52
+  - term: "pozn"
+    score: 52
+  - term: "summary"
+    score: 51
+  - term: "docs"
+    score: 51
+  - term: "love"
+    score: 50
+  - term: "date"
+    score: 50
+  - term: "terms"
+    score: 48
+  - term: "sync"
+    score: 48
+  - term: "the"
+    score: 47
+  - term: "environment"
+    score: 47
+  - term: "visual"
+    score: 46
+  - term: "scan"
+    score: 45
+  - term: "learn"
+    score: 45
+  - term: "learned"
+    score: 43
+  - term: "label"
+    score: 43
+  - term: "banner"
+    score: 41
+  - term: "kter"
+    score: 40
+  - term: "daily"
+    score: 40
+  - term: "ska"
+    score: 39
+  - term: "run"
+    score: 39
+  - term: "mezi"
+    score: 39
+  - term: "dict"
+    score: 38
+  - term: "with"
+    score: 37
+  - term: "type"
+    score: 37
+  - term: "map"
+    score: 37
+  - term: "examples"
+    score: 37
+  - term: "out"
+    score: 36
+  - term: "commit"
+    score: 36
+  - term: "jako"
+    score: 35
+  - term: "then"
+    score: 34
+  - term: "push"
+    score: 34
+  - term: "consciousness"
+    score: 34
+  - term: "bash"
+    score: 34
+  - term: "update"
+    score: 32
+  - term: "self"
+    score: 32
+  - term: "index"
+    score: 32
+  - term: "version"
+    score: 31
+  - term: "sanskrit"
+    score: 31
+  - term: "workflows"
+    score: 30
+  - term: "usr"
+    score: 30
+  - term: "tlo"
+    score: 30
+  - term: "passive"
+    score: 30
+  - term: "harmony"
+    score: 30
+  - term: "bin"
+    score: 30
+  - term: "root"
+    score: 29
+  - term: "proposal"
+    score: 29
+  - term: "new"
+    score: 29
+  - term: "identity"
+    score: 29
+  - term: "znam"
+    score: 28
+  - term: "word"
+    score: 28
+  - term: "status"
+    score: 28
+  - term: "repository"
+    score: 28
+  - term: "mantra"
+    score: 28
+  - term: "corpus"
+    score: 28
+  - term: "echoinfo"
+    score: 27
+  - term: "not"
+    score: 26
+  - term: "nebo"
+    score: 26
+  - term: "ale"
+    score: 26
+  - term: "null"
+    score: 25
+  - term: "language"
+    score: 25
+  - term: "safe"
+    score: 24
+  - term: "rovnov"
+    score: 24
+  - term: "find"
+    score: 24
+  - term: "birth"
+    score: 24
+  - term: "sug"
+    score: 23
+  - term: "stav"
+    score: 23
+  - term: "dev"
+    score: 23
+  - term: "process"
+    score: 22
+  - term: "list"
+    score: 22
+  - term: "done"
+    score: 22
+  - term: "actions"
+    score: 22
+  - term: "syst"
+    score: 21
+  - term: "sky"
+    score: 21
+  - term: "scripts"
+    score: 21
+  - term: "pro"
+    score: 21
+  - term: "principles"
+    score: 21
+  - term: "network"
+    score: 21
+  - term: "grow"
+    score: 21
+  - term: "frequency"
+    score: 21
+  - term: "certificate"
+    score: 21
+  - term: "timeline"
+    score: 20
+  - term: "through"
+    score: 20
+  - term: "set"
+    score: 20
+  - term: "ravarentoren"
+    score: 20
+  - term: "only"
+    score: 20
+  - term: "from"
+    score: 20
+  - term: "end"
+    score: 20
+  - term: "add"
+    score: 20
+  - term: "ver"
+    score: 19
+  - term: "txt"
+    score: 19
+  - term: "sugfile"
+    score: 19
+  - term: "read"
+    score: 19
+  - term: "light"
+    score: 19
+  - term: "arg"
+    score: 19
+  - term: "structure"
+    score: 18
+  - term: "sort"
+    score: 18
+  - term: "runes"
+    score: 18
+  - term: "repo"
+    score: 18
+  - term: "prema"
+    score: 18
+  - term: "newest"
+    score: 18
+  - term: "mkdir"
+    score: 18
+  - term: "grep"
+    score: 18
+  - term: "env"
+    score: 18
+  - term: "else"
+    score: 18
+  - term: "today"
+    score: 17
+  - term: "symbolic"
+    score: 17
+  - term: "sources"
+    score: 17
+  - term: "sob"
+    score: 17
+  - term: "png"
+    score: 17
+  - term: "path"
+    score: 17
+  - term: "output"
+    score: 17
+  - term: "len"
+    score: 17
+  - term: "iname"
+    score: 17
+  - term: "generated"
+    score: 17
+  - term: "entry"
+    score: 17
+  - term: "compassion"
+    score: 17
+  - term: "awk"
+    score: 17
+  - term: "roz"
+    score: 16
+  - term: "proposals"
+    score: 16
+  - term: "printf"
+    score: 16
+  - term: "print"
+    score: 16
+  - term: "meta"
+    score: 16
+  - term: "length"
+    score: 16
+  - term: "human"
+    score: 16
+  - term: "dry"
+    score: 16
+  - term: "continue"
+    score: 16
+  - term: "base"
+    score: 16
+  - term: "awareness"
+    score: 16
+  - term: "understanding"
+    score: 15
+  - term: "text"
+    score: 15
+  - term: "sledek"
+    score: 15
+  - term: "pattern"
+    score: 15
+  - term: "jednoho"
+    score: 15
+  - term: "head"
+    score: 15
+  - term: "exit"
+    score: 15
+  - term: "eof"
+    score: 15
+  - term: "curiosity"
+    score: 15
+  - term: "zlat"
+    score: 14
+  - term: "time"
+    score: 14
+  - term: "tento"
+    score: 14
+  - term: "technical"
+    score: 14
+  - term: "suggestions"
+    score: 14
+  - term: "readme"
+    score: 14
+  - term: "parser"
+    score: 14
+  - term: "nikdy"
+    score: 14
+  - term: "init"
+    score: 14
+  - term: "for"
+    score: 14
+  - term: "expanded"
+    score: 14
+  - term: "engine"
+    score: 14
+  - term: "cat"
+    score: 14
+  - term: "utf"
+    score: 13
+  - term: "unity"
+    score: 13
+  - term: "tmp"
+    score: 13
+  - term: "signal"
+    score: 13
+  - term: "meaning"
+    score: 13
+  - term: "main"
+    score: 13
+  - term: "life"
+    score: 13
+  - term: "introspective"
+    score: 13
+  - term: "false"
+    score: 13
+  - term: "create"
+    score: 13
+  - term: "count"
+    score: 13
+  - term: "concept"
+    score: 13
+  - term: "tla"
+    score: 12

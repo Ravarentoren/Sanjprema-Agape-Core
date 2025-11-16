@@ -1,0 +1,4 @@
+auto_merge: false
+human_review: true
+suggestion_threshold: 3
+daily_run_cron: "0 2 * * *"

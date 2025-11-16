@@ -5,5 +5,5 @@
     "modules/expansion/",
     "sanjprema_sync.sh",
   ],
-  "status": "pre-commit"
+  "status": "completed"
 }
