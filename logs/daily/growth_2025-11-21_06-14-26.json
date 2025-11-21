@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-21_06-14-26",
+  "source": "github-actions",
+  "modules": {
+    "learned": "scan_2025-11-13_11-37-27.json scan_2025-11-15_16-14-18.json scan_2025-11-15_16-20-01.json scan_2025-11-15_16-33-18.json ",
+    "patterns": "language_patterns_2025-11-13_11-37-27.json language_patterns_2025-11-15_16-14-18.json language_patterns_2025-11-15_16-20-01.json language_patterns_2025-11-15_16-33-18.json ",
+    "symbols": "symbol_map_2025-11-13_11-37-27.yml symbol_map_2025-11-15_16-14-18.yml symbol_map_2025-11-15_16-20-01.yml symbol_map_2025-11-15_16-33-18.yml ",
+    "introspection": "introspection_2025-11-13_11-37-27.md introspection_2025-11-15_16-14-18.md introspection_2025-11-15_16-20-01.md introspection_2025-11-15_16-33-18.md "
+  }
+}
